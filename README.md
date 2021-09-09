@@ -1,4 +1,4 @@
-# cpf-filter
+# CpfFilterVueJS
 
 # Sobre o Projeto
 Este é um filtro criado em VueJS para aplicar máscara ao CPF informado
