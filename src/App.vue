@@ -1,15 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    
+    <CpfFilter :CPF="cpf" />
     
   </div>
 </template>
 
 <script>
-
+import CpfFilter from './components/CpfFilter.vue'
 
 export default {
-
+  components:{
+    CpfFilter
+  },
+  data(){
+    return{
+      cpf: '11360557970'
+    }
+  }
 }
 </script>
 
